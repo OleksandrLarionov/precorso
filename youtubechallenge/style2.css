@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tilt+Prism&display=swap');
+
+
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+#main {
+    width: 100%;
+}
+
+#contenuto{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#sidebar {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#sidebar-icon{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#sidebar-icon p{
+    margin: 0;
+}
+
+#sidebar-icon ion-icon{
+      font-size: 1.6em;   /*grandezza delle icone */
+}
+
+#topbar{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-y{
+    height: 50%;
+    cursor: pointer;
+}
+
+#serch-wrapper{
+    display: flex;
+    height: 50%;
+    
+}
+
+#topbar-icons{
+    display: flex;
+    cursor: pointer;
+}
+
+#topbar-icons ion-icon{
+    font-size: 2.0em;
+}
+
+
+#mic-icon ion-icon{
+    font-size: 1.6em;
+    
+}
+
+#mic-icon{
+    margin: 0 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#src-btn ion-icon{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    
+}
+
+#src-btn {
+    border-radius:10px;
+    cursor: pointer;
+}
+
+#serch-wrapper input{
+    padding: 0 5em;
+    border-radius: 10px;
+}
+
+#info{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+#title-d p{
+font-size: 1em;
+margin: 0;
+padding: 0.2em;
+justify-items: center;
+} 
+
+#video{
+    padding: 2em;
+    height: 335px;
+    width: 596px;
+    /*flex-basis: 31%; */
+}
+
+#img1{
+    display: flex;
+    height: 335px;
+    width: 596px;
+    cursor: pointer;
+}
+    
+
